@@ -14,6 +14,12 @@ You need to create a bot that:
 * Decides the best move
 * Returns the move in correct format
 
+* 📂 Files Provided
+
+* engine.py → Runs the match between bots
+* bot_random.py → Sample basic bot
+* my_bot.py → You will create/edit this file
+
 ⚙️ Setup Instructions
 
 1. Make sure Python is installed (Python 3.8+ recommended)
