@@ -52,8 +52,8 @@ You can:
 
 ⏱️ Time Limit
 
-Your bot must return a move quickly (within a few seconds).
-Slow bots may be disqualified.
+* Max moves per game: 100
+* If exceeded → Draw
 
 🚀 Final Note
 
