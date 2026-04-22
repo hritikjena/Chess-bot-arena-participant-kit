@@ -6,7 +6,7 @@ BOT1 = "my_bot"
 BOT2 = "bot_random"
 
 MAX_MOVES = 100
-TIME_LIMIT = 5
+TIME_LIMIT = 4
 
 
 def worker(bot_name, fen, queue):
@@ -27,6 +27,7 @@ def get_safe_move(bot_name, fen):
 
     if p.is_alive():
         p.terminate()
+        p.join()
         return None, "timeout"
 
     if not queue.empty():
